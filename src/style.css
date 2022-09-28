@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.greennav {
+  padding: 5px;
+  background-color: rgb(142, 190, 30);
+  margin-bottom: 10px;
+}
+
+.navimg {
+  width: 23px;
+  height: 23px;
+  padding: -2px;
+}
+
+.paragreennav {
+  font-size: large;
+  padding: 2px;
+}
+
+.greennavdiv {
+  display: flex;
+  margin-left: 40%;
+}
+
+.logoimg {
+  margin-left: 45%;
+  position: absolute;
+  border-radius: 0px;
+  margin-bottom: 10px;
+}
+
+.bluenav {
+  background-color: rgb(19, 25, 92);
+  color: white;
+  margin-bottom: 0%;
+}
+
+.wholebluenav {
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.bluenavelements {
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: Reem Kufi Ink;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.bluenavelements:hover {
+  cursor: pointer;
+}
+
+.banner {
+  position: absolute;
+  /* margin-left: 0.6%;
+  margin-right: 1%; */
+  width: 100%;
+  height: 503px;
+}
+
+#why {
+  font-size: xx-large;
+  margin-top: 35%;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(19, 25, 92);
+  text-shadow: 2px black;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.boxes {
+  margin: 1%;
+  margin-top: 2%;
+  text-align: left;
+  word-spacing: 4px;
+  border: 1px solid black;
+  border-style: none;
+  padding: 9px;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.boxpara {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+#banner2 {
+  width: 100%;
+  /* margin: 4%; */
+  margin-top: 0%;
+  margin-bottom: 0px;
+}
+
+#banner2:hover {
+  cursor: pointer;
+}
+
+#banner3heading {
+  font-size: xx-large;
+  text-align: center;
+  padding-top: 20px;
+  color: orange;
+}
+
+.banner3 {
+  border: 1px solid black;
+  background-color: rgb(23, 26, 58);
+  /* margin: 3.9%; */
+  margin-top: 0px;
+  padding: 60px;
+  margin-bottom: 0%;
+}
+
+.subheading {
+  display: flex;
+  font-size: large;
+  justify-content: space-evenly;
+  padding-top: 15px;
+  font-size: xx-large;
+}
+
+#subheading {
+  color: white;
+  justify-content: space-evenly;
+}
+
+#banner3elements {
+  color: orange;
+  padding-top: 3%;
+}
+
+.banner4 {
+  width: 1400px;
+  margin: 4%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.reachout {
+  display: flex;
+  /* margin: 4%; */
+  margin-top: 0px;
+  border: 1px solid black;
+  justify-content: space-evenly;
+  border-style: none;
+  padding: 10px;
+  background-color: rgb(228, 255, 228);
+  margin-bottom: 2%;
+}
+
+.reachpara {
+  font-size: 40px;
+  color: rgb(0, 222, 174);
+}
+
+.nobtn {
+  padding: 10px;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: none;
+  border-radius: 10px;
+  line-height: 30px;
+}
+
+.nobtn:hover {
+  cursor: pointer;
+}
+
+#whatsapplogo {
+  line-height: 10px;
+}
+
+.recruiters {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.banner5 {
+  width: 100%;
+  /* margin: 10%; */
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.testbox {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.boxtest {
+  border: 1px solid black;
+  border-style: none;
+  text-align: center;
+  padding: 55px;
+  max-width: 35%;
+  border-radius: 20px;
+}
+
+#box1 {
+  background-color: rgb(19, 25, 92);
+}
+
+#box2 {
+  background-color: rgba(235, 232, 232, 0.832);
+}
+
+.dpbtn {
+  background-color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 3%;
+}
+
+.dppara {
+  padding-top: 20px;
+}
+
+.boxheading {
+  font-size: xx-large;
+  padding-bottom: 10px;
+}
+
+.name {
+  font-size: larger;
+  padding-top: 10px;
+}
+
+.para1footer {
+  color: white;
+  padding: 10px;
+  background-color: rgb(19, 25, 92);
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(235, 232, 232, 0.832);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.heading {
+  font-size: larger;
+  color: rgb(19, 25, 92);
+  padding-bottom: 10px;
+}
+
+.clmelememts {
+  padding: 3px;
+  padding-left: 0px;
+  color: rgb(19, 25, 92);
+}
+
+.heading2 {
+  font-size: larger;
+  color: rgb(19, 25, 92);
+  padding-top: 30px;
+}
+
+.footermail {
+  padding: 5px;
+  border: 1px solid black;
+  border-style: none;
+  background-color: rgb(255, 251, 251);
+  border-radius: 4px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: large;
+  color: rgb(19, 25, 92);
+}
+
+.joinusapp {
+  padding: 4px;
+}
+
+.joinusapp:hover,
+.clmelememts:hover {
+  cursor: pointer;
+  transition: ease-in-out;
+}
+
+.joinusbtn {
+  background-color: rgb(19, 25, 92);
+  color: white;
+  padding: 8px;
+  border-style: none;
+  border-radius: 4px;
+}
+
+.joinusbtn:hover {
+  cursor: pointer;
+  background-color: grey;
+  color: black;
+}
+
+.footerendline {
+  background-color: rgb(19, 25, 92);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 4%;
+}
